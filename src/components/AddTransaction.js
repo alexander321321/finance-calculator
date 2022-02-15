@@ -21,7 +21,7 @@ export const AddTransaction = () => {
 
   return (
     <>
-      <h3>Добавить новую транзакцию</h3>
+      <h3>Добавить новую транзакцию:</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label htmlFor="text">Текст</label>
@@ -34,7 +34,7 @@ export const AddTransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">Сумма <br />
+          <label htmlFor="amount">Сумма: <br />
             (отрицательная- расходы, положительная- доходы)
           </label>
           <input
